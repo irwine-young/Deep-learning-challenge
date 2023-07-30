@@ -46,7 +46,7 @@ Loss: 0.5940616726875305, Accuracy: 0.7292128205299377
 
 These optimisation were made by altering the number of hidden layers and number of nodes for the model, which still yield a lower accuracy. (<0.75)
 
-However, for optimisation 4, instead of dropping the "Name" feature in the initial dataset, we've include the "Name" into the neural network model, replace all the bin count of < 50 as others tio simplify the "Names" feature column. This model yields better accuracy than the initial 4 models with only nodes and layers modifications.
+However, for optimisation 4, instead of dropping the "Name" feature in the initial dataset, we've include the "Name" into the neural network model, replace all the bin count of < 50 as others to simplify the "Names" feature column. This model yields better accuracy than the initial 4 models with only nodes and layers modifications.
 
 # Optimisation 4:
 268/268 - 1s - loss: 0.5677 - accuracy: 0.7620 - 541ms/epoch - 2ms/step
